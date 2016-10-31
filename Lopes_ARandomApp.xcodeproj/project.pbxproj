@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86E407CA1DC7F5820032B526 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E407C91DC7F5820032B526 /* AppDelegate.swift */; };
+		86E407CC1DC7F5820032B526 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E407CB1DC7F5820032B526 /* ViewController.swift */; };
+		86E407CF1DC7F5820032B526 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86E407CD1DC7F5820032B526 /* Main.storyboard */; };
+		86E407D11DC7F5820032B526 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86E407D01DC7F5820032B526 /* Assets.xcassets */; };
+		86E407D41DC7F5820032B526 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86E407D21DC7F5820032B526 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		86E407C61DC7F5820032B526 /* Lopes_ARandomApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lopes_ARandomApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86E407C91DC7F5820032B526 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		86E407CB1DC7F5820032B526 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		86E407CE1DC7F5820032B526 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86E407D01DC7F5820032B526 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86E407D31DC7F5820032B526 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86E407D51DC7F5820032B526 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86E407C31DC7F5820032B526 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86E407BD1DC7F5820032B526 = {
+			isa = PBXGroup;
+			children = (
+				86E407C81DC7F5820032B526 /* Lopes_ARandomApp */,
+				86E407C71DC7F5820032B526 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86E407C71DC7F5820032B526 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86E407C61DC7F5820032B526 /* Lopes_ARandomApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86E407C81DC7F5820032B526 /* Lopes_ARandomApp */ = {
+			isa = PBXGroup;
+			children = (
+				86E407C91DC7F5820032B526 /* AppDelegate.swift */,
+				86E407CB1DC7F5820032B526 /* ViewController.swift */,
+				86E407CD1DC7F5820032B526 /* Main.storyboard */,
+				86E407D01DC7F5820032B526 /* Assets.xcassets */,
+				86E407D21DC7F5820032B526 /* LaunchScreen.storyboard */,
+				86E407D51DC7F5820032B526 /* Info.plist */,
+			);
+			path = Lopes_ARandomApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86E407C51DC7F5820032B526 /* Lopes_ARandomApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86E407D81DC7F5820032B526 /* Build configuration list for PBXNativeTarget "Lopes_ARandomApp" */;
+			buildPhases = (
+				86E407C21DC7F5820032B526 /* Sources */,
+				86E407C31DC7F5820032B526 /* Frameworks */,
+				86E407C41DC7F5820032B526 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lopes_ARandomApp;
+			productName = Lopes_ARandomApp;
+			productReference = 86E407C61DC7F5820032B526 /* Lopes_ARandomApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86E407BE1DC7F5820032B526 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Lopes,Grevil Gonsalo";
+				TargetAttributes = {
+					86E407C51DC7F5820032B526 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 86E407C11DC7F5820032B526 /* Build configuration list for PBXProject "Lopes_ARandomApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86E407BD1DC7F5820032B526;
+			productRefGroup = 86E407C71DC7F5820032B526 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86E407C51DC7F5820032B526 /* Lopes_ARandomApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86E407C41DC7F5820032B526 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86E407D41DC7F5820032B526 /* LaunchScreen.storyboard in Resources */,
+				86E407D11DC7F5820032B526 /* Assets.xcassets in Resources */,
+				86E407CF1DC7F5820032B526 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86E407C21DC7F5820032B526 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86E407CC1DC7F5820032B526 /* ViewController.swift in Sources */,
+				86E407CA1DC7F5820032B526 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		86E407CD1DC7F5820032B526 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86E407CE1DC7F5820032B526 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86E407D21DC7F5820032B526 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86E407D31DC7F5820032B526 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86E407D61DC7F5820032B526 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		86E407D71DC7F5820032B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86E407D91DC7F5820032B526 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Lopes_ARandomApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GrevilLopes.Lopes-ARandomApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		86E407DA1DC7F5820032B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Lopes_ARandomApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GrevilLopes.Lopes-ARandomApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86E407C11DC7F5820032B526 /* Build configuration list for PBXProject "Lopes_ARandomApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86E407D61DC7F5820032B526 /* Debug */,
+				86E407D71DC7F5820032B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86E407D81DC7F5820032B526 /* Build configuration list for PBXNativeTarget "Lopes_ARandomApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86E407D91DC7F5820032B526 /* Debug */,
+				86E407DA1DC7F5820032B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86E407BE1DC7F5820032B526 /* Project object */;
+}
